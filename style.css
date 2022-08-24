@@ -51,7 +51,6 @@ header .menu{
 }
 
 .apresentacao{
-    height: 100vh;
     align-items: center;
     justify-content: space-between;
 }
@@ -248,6 +247,11 @@ footer .footer{
 @media(max-width: 992px){
     .flex-container{
         flex-direction: column;
+        width: 95%;
+    }
+
+    .list-items{
+        padding-top: 3px;
     }
 
     .apresentacao{
@@ -260,11 +264,16 @@ footer .footer{
 
     #quem-somos{
         flex-direction: column-reverse;
+        margin-bottom: 20px;
     }
 
     #quem-somos img{
         min-width: 320px;
         margin: auto;
+    }
+
+    #servicos{
+        padding-bottom: 50px;
     }
 
     .list-servicos{
@@ -274,6 +283,7 @@ footer .footer{
     .item-servico img{
         width: 50%;
         margin: auto;
+        padding-top: 20px;
     }
 
     .list-planos{
