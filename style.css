@@ -46,6 +46,10 @@ header .list-items{
     color: #fff;
 }
 
+.list-items li:hover{
+    transform: scale(1.2, 1.2);
+}
+
 header .menu{
     justify-content: space-between;
 }
@@ -77,6 +81,10 @@ header .menu{
     line-height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.btn:hover{
+    transform: scale(1.1, 1.1);
 }
 
 #quem-somos{
@@ -150,6 +158,10 @@ header .menu{
     font: 12px;
     text-decoration: none;
     font-weight: 700;
+}
+
+.item-servico:hover{
+    transform: scale(1.1, 1.1);
 }
 
 .item-servico p{
